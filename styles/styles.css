@@ -18,7 +18,7 @@ header {
 }
 section {
     border: 1px solid #000;
-    height: 300px;
+    height: 400px;
     margin: 0 5%;
 }
 nav {
@@ -43,6 +43,12 @@ li {
     float: right;
     width: 50%;
     height: 100%;
+}
+.m-r-container, .f-s-container {
+    float: left;
+    width: 50%;
+    height: 90px;
+    padding: 0 0 0 19%;
 }
 /***************************
 /* Display and Theme Styles
@@ -71,4 +77,62 @@ h2{
     color: orange;
     font-weight: 500;
     text-align: center;
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.speciality-img {
+    width: 100px;
+    height: 200px;
+    background-color: lightblue;
+    padding: 10px 30px;
+    border: 1px solid #000;
+}
+.speciality-img-container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    
+}
+.center-paragraph {
+    text-align: center;
+    font-size: 1.0rem;
+}
+.center-phone {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: orangered;
+}
+.hours-img-container {
+    width: 300px;
+    height: 150px;
+    background-color: lightblue;
+    clear: both;
+    margin: 0 auto;
+}
+.pfp-img-container {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+.customer-name {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.customer-job {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.testimonial-text {
+    text-align: center;
+    font-size: 1.0rem;
+    font-style: italic;
+    padding: 0 10%;
 }
