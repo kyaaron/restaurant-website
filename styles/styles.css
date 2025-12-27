@@ -6,8 +6,13 @@
     padding: 0;
     font-family: "Lexend", sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+    color: rgb(12, 12, 35);
+}
 
 /*** MOBILE STYLES ***/
+/* Header styles */
 header {
     height: 70px;
     border: 1px solid black;
@@ -17,6 +22,17 @@ header {
 }
 ul {
     display: none;
+}
+/* Welcome styles */
+h1 {
+    font-weight: 700;
+    font-size: 3.0rem;
+}
+.socials-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
 /*** DESKTOP STYLES ***/
@@ -37,6 +53,15 @@ ul {
     }
     #mobile-menu-icon {
         display: none;
+    }
+    /* Welcome styles */
+    .welcome-section {
+        display: flex;
+        height: 350px;
+    }
+    .welcome-section-left-container, .welcome-section-right-container {
+        width: 50%;
+        border: 1px solid black;
     }
 
 }
