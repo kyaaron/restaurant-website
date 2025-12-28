@@ -34,6 +34,29 @@ h1 {
     align-items: center;
     width: 100%;
 }
+/* Specialty styles */
+.specialty-section {
+    height: 350px;
+}
+.specialty-section > p, .specialty-section > h2 {
+    text-align: center;
+}
+.specialty-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.specialty-img {
+    max-width: 80%;
+    max-height: 80%;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /*** DESKTOP STYLES ***/
 @media screen and (min-width: 48em) {
@@ -77,4 +100,15 @@ h1 {
         width: 60%;
         border: 1px solid black;
     }
+    /* Specialty desktop styles */
+    .specialty-image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    figure {
+        width: 25%;
+        border: 1px solid black;
+    }
+    
 }
