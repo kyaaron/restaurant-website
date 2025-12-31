@@ -15,7 +15,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Header styles */
 header {
     height: 70px;
-    border: 1px solid black;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -24,16 +23,42 @@ ul {
     display: none;
 }
 /* Welcome styles */
+.welcome-section {
+    padding: 20px 0 40px 0;
+}
 h1 {
     font-weight: 700;
     font-size: 3.0rem;
+    color: rgb(13, 13, 36);
+    padding: 20px;
 }
 .socials-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    padding: 20px 0;
 }
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+.welcome-search {
+    width: 65%;
+    height: 40px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+}
+.section-btn {
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: rgb(240, 142, 53);
+    color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* Specialty styles */
 .specialty-section {
     height: 100%;
