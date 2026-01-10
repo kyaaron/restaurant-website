@@ -119,13 +119,24 @@ figure {
     flex-direction: column;
     align-items: center;
 }
+.call-now-container, .hours-times.container {
+    margin: 20px 0;
+}
 .call-now-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.hours-times-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hours-left, .hours-right {
+    padding: 0 15px;
+}
 .hours-food-img {
     width: 80%;
+    margin: 20px 0 0 0;
 }
 /* Testimonials styles */
 .testimonials-section {
