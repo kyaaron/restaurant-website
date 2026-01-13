@@ -8,3 +8,4 @@ Wireframe link: https://communitytaught.org/img/resources/restaurant.png
 - I am using `display: none` on elements between the media query so the navigation bar will change depending on the device.
 - Sections will bleed into each other when using set height measurements like pixels. Using `height: 100%` is one way to resolve this issue.
 - Creating multiple branches will create various pull requests. If I remain on the same branch and keep pushing, it will all go to the same pull request automatically. I approved my PRs in the order they were pushed from my local machine.
+- Using `background-image` and `background-size: 100% 100%` to get images as backgrounds that fit the container.
