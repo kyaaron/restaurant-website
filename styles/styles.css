@@ -184,25 +184,29 @@ figure {
     /* Welcome desktop styles */
     .welcome-section {
         display: flex;
-        height: 350px;
+        height: 550px;
+        align-items: center;
+        border: 1px solid black;
     }
     .welcome-section-left-container, .welcome-section-right-container {
         width: 50%;
-        border: 1px solid black;
+    }
+    h1 {
+        text-align: center;
+        font-size: 4.0rem;
     }
     /* About desktop styles */
     .about-section {
         display: flex;
-        height: 350px;
+        height: 550px;
+        align-items: center;
+        border: 1px solid black;
     }
     .about-section-left-container {
         width: 40%;
-        border: 1px solid black;
-
     }
     .about-section-right-container {
         width: 60%;
-        border: 1px solid black;
     }
     /* Specialty desktop styles */
     .specialty-image-container {
