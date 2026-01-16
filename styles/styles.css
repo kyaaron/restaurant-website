@@ -27,7 +27,8 @@ ul {
 }
 /* Welcome styles */
 .welcome-section {
-    padding: 20px 0 40px 0;
+    padding: 60px 0 60px 0;
+    background-color: rgba(243, 246, 247, 1)
 }
 h1 {
     font-weight: 700;
@@ -63,6 +64,9 @@ h1 {
 }
 
 /* About styles */
+.about-section {
+    padding: 60px 0 30px 0;
+}
 .section-title-small {
     text-align: center;
     color: rgb(240, 142, 53);
@@ -87,7 +91,8 @@ h1 {
 /* Specialty styles */
 .specialty-section {
     height: 100%;
-    padding-top: 20px;
+    padding: 60px 0 30px 0;
+    background-color: rgba(243, 246, 247, 1);
 }
 .specialty-section > p {
     text-align: center;
@@ -118,7 +123,9 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px 0 0 0;
+    background-image: url("../assets/cups-bg-img.jpg");
+    background-size: 100% 100%;
+    padding: 60px 0 50px 0;
 }
 .call-now-container, .hours-times.container {
     margin: 20px 0;
@@ -137,6 +144,7 @@ figure {
 }
 .hours-food-img {
     width: 80%;
+    height: auto;
     margin: 20px 0 0 0;
 }
 /* Testimonials styles */
@@ -145,7 +153,9 @@ figure {
     flex-direction: column;
     align-items: center;
     height: 500px;
-    margin: 50px 0 0 0;
+    padding: 60px 0 30px 0;
+    background-image: url("../assets/quote-bg-img.png");
+    background-size: 100% 100%;
 }
 .customer-pfp {
     width: 150px;
@@ -212,6 +222,9 @@ figure {
         width: 50%;
     }
     /* Specialty desktop styles */
+    .specialty-section {
+        padding: 50px 0 30px 0;
+    }
     .specialty-image-container {
         display: flex;
         flex-direction: row;
@@ -219,7 +232,6 @@ figure {
     }
     figure {
         width: 25%;
-        border: 1px solid black;
     }
     /* Hours desktop styles */
     .hours-times-container {
@@ -230,9 +242,19 @@ figure {
         width: 50%;
         text-align: center;
     }
-    .hours-food-img {
-        max-width: 800px;
-        max-height: auto;
+    .hours-left {
+        padding-left: 20%;
     }
-    
+    .hours-right {
+        padding-right: 20%;
+    }
+    .hours-food-img {
+        width: 50%;
+        height: auto;
+        margin: 20px 0 0 0;
+    }
+    /* Testimonials desktop styles */
+    .customer-quote {
+        padding: 5px 20%;
+    }
 }
